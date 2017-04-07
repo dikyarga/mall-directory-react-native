@@ -93,8 +93,6 @@ class Homepage extends React.Component {
                                   <CardItem content>
                                       <Text>{ mall.description }</Text>
                                   </CardItem>
-
-
                                       <Button
                                         onPress={() => this.props.navigator.push({id: 'mall'})}
                                         transparent>

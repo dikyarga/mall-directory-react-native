@@ -23,7 +23,7 @@ class App extends React.Component {
                 return <Homepage navigator={navigator} title='Hoempage'/>
                 break;
               case 'mall':
-                console.log('masuk sini :');
+                console.log('masuk mallz');
                 return <Mall navigator={navigator} title='Mall'/>
                 break;
               default:
